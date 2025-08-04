@@ -36,7 +36,8 @@ a:hover, a:active {
 .description {
     height: 867px;
     width: 20%;
-    border: 2px solid black;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
 }
 
     .playerorig{
@@ -52,6 +53,22 @@ a:hover, a:active {
         display: flex;
         flex-direction: row;
     }
+    .name{
+        border-top: 2px solid black;
+        border-bottom: 2px solid black; 
+        height: 17.5%;
+        width: 100%;
+    }
+    .photo{
+        border-right: 2px solid black;
+        height: 100%;
+        width: 30%;
+    }
+    .name2{
+        font-size: 150%;
+        height: 82.5%;
+        width: 100%;
+    }
 </style>
 </head>
 <body>
@@ -62,8 +79,18 @@ a:hover, a:active {
         <a href="file:///C:/Users/USER/Desktop/%D0%BA%D0%BE%D0%B4%D1%8B/project%201/index.html" target="_blank">каталог</a>
         </div>
         <div class="content">
-    <div class="playerorig">hjwwww</div> 
-    <div class="description">swsdwwwq</div>
+    <div class="playerorig">
+        <video width="100%" height="100%" controls>
+   <source src="" type="video/mp4">
+   <source src="" type="video/ogg">
+   Ваш браузер не поддерживает HTML5 видео.
+    </div> 
+    <div class="description">
+        <div class="name content">
+            <div class="photo"><img src="" width="100%" height="100%">ваше фото</div>
+            <div class="name2">ваше имя фильма</div>
+        </div>
+    </div>
         </div>
     </div>
 </body>
