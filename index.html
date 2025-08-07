@@ -1,23 +1,96 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ru">
 <head>
-  <meta charset="utf-8" />
-  <title>чему же я научился в html </title>
-  <link rel="stylesheet" href="style.css" />
+    <title>film </title>
+    <link rel="icon" type="kino" href="c:\Users\USER\Downloads\57c8dbe7fc1d07e4e6f0013869db7d97.jpg">
+    <style>
+        body{background-color: rgb(64, 64, 64);}
+    .vitrina {
+        border: 2px solid black;
+        padding: 7px;
+        background-color: gray;
+        margin: 2px;
+    }
+a:link, a:visited {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  margin: 0px 14px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: gray;
+}
+    p {
+        background-color: black;
+        color: white;
+        padding: 10px 20px;
+        margin: 0px 14px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+    }
+.description {
+    height: 867px;
+    width: 20%;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+}
+
+    .playerorig{
+    height: 867px;
+    width: 80%;
+    border: 2px solid black
+}
+    .contentWrap{
+        display: flex;
+        flex-direction: column;
+    }
+    .content{
+        display: flex;
+        flex-direction: row;
+    }
+    .name{
+        border-top: 2px solid black;
+        border-bottom: 2px solid black; 
+        height: 17.5%;
+        width: 100%;
+    }
+    .photo{
+        border-right: 2px solid black;
+        height: 100%;
+        width: 30%;
+    }
+    .name2{
+        font-size: 150%;
+        height: 82.5%;
+        width: 100%;
+    }
+</style>
 </head>
 <body>
-<div>начнем с азов а имменно скобки определяющиеся командой div </div>  
-<h1 style="text-align:center;">заголовки</h1>
-<div>заголовки не нужно каждый раз писать и использовать вообще для текста. размер заголовков определяется командами от h1 до h6 пример:</div>
-<h1>заголовок h1</h1>
-<h1 style="text-align:center;">параграфы</h1>
-параграфы уже можно использовать как текст и они чаще всего меняются командами пример:
-  <p>это параграф p</p>
-  <h1 style="text-align:center;">ссылки</h1>
-  ссылки вставляются с помощью команды а и артибута href пример на ссылку видео golden burst <hr>
-  <a href="https://youtu.be/R14YgUpZgBM?si=7xpgHZFKgtWgH4lr">ссылка тут</a>
-  <div><h1 style="text-align:center;">фотографии</h1></div>
-  <div>cнизу фото кошечки с шириной 50 и высотой 70</div>
-  <img src="c:\Users\USER\Downloads\5d6b219132219164d5bde60457554c57.jpg" alt="кошечка" width="50" height="70">
+<div>
+    <div class="contentWrap">
+        <div>
+        <p>film все у нас!</p>
+        <a href="file:///C:/Users/USER/Desktop/%D0%BA%D0%BE%D0%B4%D1%8B/project%201/index.html" target="_blank">каталог</a>
+        </div>
+        <div class="content">
+    <div class="playerorig">
+        <video width="100%" height="100%" controls>
+   <source src="" type="video/mp4">
+   <source src="" type="video/ogg">
+   Ваш браузер не поддерживает HTML5 видео.
+    </div> 
+    <div class="description">
+        <div class="name content">
+            <div class="photo"><img src="" width="100%" height="100%">ваше фото</div>
+            <div class="name2">ваше имя фильма</div>
+        </div>
+    </div>
+        </div>
+    </div>
 </body>
-</html>
